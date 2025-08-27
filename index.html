@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maritim Jaya Perkasa - Solusi Pelayaran Terpercaya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero-section {
+            background-image: linear-gradient(rgba(0, 20, 50, 0.7), rgba(0, 20, 50, 0.7)), url('https://placehold.co/1920x1080/003366/FFFFFF?text=Kapal+Tug+Boat+%26+Tongkang');
+            background-size: cover;
+            background-position: center;
+        }
+        .section-title {
+            @apply text-3xl md:text-4xl font-bold text-gray-800 mb-4 text-center;
+        }
+        .section-subtitle {
+            @apply text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Header & Navigation -->
+    <header id="header" class="bg-white shadow-md sticky top-0 z-50 transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-[#003366]">
+                <i class="fas fa-anchor mr-2"></i>Maritim Jaya
+            </a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#beranda" class="text-gray-600 hover:text-[#003366] font-medium">Beranda</a>
+                <a href="#tentang" class="text-gray-600 hover:text-[#003366] font-medium">Tentang Kami</a>
+                <a href="#layanan" class="text-gray-600 hover:text-[#003366] font-medium">Layanan</a>
+                <a href="#armada" class="text-gray-600 hover:text-[#003366] font-medium">Armada</a>
+                <a href="#proyek" class="text-gray-600 hover:text-[#003366] font-medium">Proyek</a>
+                <a href="#berita" class="text-gray-600 hover:text-[#003366] font-medium">Berita</a>
+                <a href="#karier" class="text-gray-600 hover:text-[#003366] font-medium">Karier</a>
+                <a href="#kontak" class="bg-[#FF6600] text-white px-4 py-2 rounded-full hover:bg-opacity-90 transition-colors">Hubungi Kami</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-700 focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#beranda" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Beranda</a>
+            <a href="#tentang" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Tentang Kami</a>
+            <a href="#layanan" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Layanan</a>
+            <a href="#armada" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Armada</a>
+            <a href="#proyek" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Proyek</a>
+            <a href="#berita" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Berita</a>
+            <a href="#karier" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Karier</a>
+            <a href="#kontak" class="block py-2 px-4 text-sm bg-[#FF6600] text-white text-center">Hubungi Kami</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Beranda -->
+        <section id="beranda" class="hero-section h-screen flex items-center justify-center text-white">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">Solusi Pelayaran Terpercaya & Efisien</h1>
+                <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">Mendorong pertumbuhan bisnis Anda dengan layanan maritim yang andal dan profesional.</p>
+                <a href="#kontak" class="bg-[#FF6600] text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-opacity-90 transition-transform transform hover:scale-105">Ajukan Penawaran</a>
+            </div>
+        </section>
+
+        <!-- Sekilas Perusahaan -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <img src="https://placehold.co/600x400/E2E8F0/333?text=Aktivitas+Pelayaran" alt="Aktivitas Pelayaran" class="rounded-lg shadow-xl">
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Selamat Datang di Maritim Jaya Perkasa</h2>
+                        <p class="text-gray-600 mb-4">Dengan pengalaman lebih dari dua dekade di industri pelayaran, kami berkomitmen untuk memberikan layanan terbaik dengan standar keselamatan dan profesionalisme tertinggi. Kami adalah mitra strategis Anda dalam logistik maritim.</p>
+                        <div class="flex space-x-8 mt-6">
+                            <div class="text-center">
+                                <p class="text-4xl font-bold text-[#003366]">20+</p>
+                                <p class="text-gray-500">Tahun Pengalaman</p>
+                            </div>
+                            <div class="text-center">
+                                <p class="text-4xl font-bold text-[#003366]">50+</p>
+                                <p class="text-gray-500">Armada Kapal</p>
+                            </div>
+                            <div class="text-center">
+                                <p class="text-4xl font-bold text-[#003366]">100+</p>
+                                <p class="text-gray-500">Klien Puas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Tentang Kami -->
+        <section id="tentang" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title">Tentang Kami</h2>
+                <p class="section-subtitle">Mengenal lebih dekat dedikasi dan nilai-nilai yang menjadi fondasi perusahaan kami.</p>
+                
+                <div class="grid md:grid-cols-2 gap-10">
+                    <!-- Visi & Misi -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-bold text-[#003366] mb-3"><i class="fas fa-rocket mr-2"></i>Visi Kami</h3>
+                        <p class="text-gray-600">Menjadi perusahaan pelayaran terdepan di Indonesia yang dikenal karena keunggulan operasional, inovasi, dan komitmen terhadap keberlanjutan.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-bold text-[#003366] mb-3"><i class="fas fa-bullseye mr-2"></i>Misi Kami</h3>
+                        <p class="text-gray-600">Memberikan solusi logistik maritim yang aman, tepat waktu, dan efisien, serta menciptakan nilai tambah bagi klien, karyawan, dan pemangku kepentingan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Layanan -->
+        <section id="layanan" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title">Layanan Unggulan Kami</h2>
+                <p class="section-subtitle">Kami menyediakan berbagai layanan untuk memenuhi kebutuhan logistik maritim Anda.</p>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://placehold.co/600x400/003366/FFF?text=Jasa+Tug+%26+Barge" alt="Tug & Barge" class="w-full h-64 object-cover">
+                        <div class="p-8">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-3">Jasa Tug & Barge</h3>
+                            <p class="text-gray-600">Menyediakan layanan pengangkutan kargo curah seperti batu bara, nikel, pasir, dan lainnya dengan armada tug boat dan tongkang yang andal.</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://placehold.co/600x400/003366/FFF?text=Penyewaan+Kapal" alt="Penyewaan Kapal" class="w-full h-64 object-cover">
+                        <div class="p-8">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-3">Penyewaan Kapal</h3>
+                            <p class="text-gray-600">Menawarkan skema penyewaan kapal (Time Charter & Freight Charter) yang fleksibel untuk berbagai kebutuhan proyek jangka pendek maupun panjang.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Armada -->
+        <section id="armada" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title">Armada Modern Kami</h2>
+                <p class="section-subtitle">Didukung oleh armada yang terawat baik dan bersertifikasi untuk menjamin kelancaran operasional.</p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Contoh Kapal 1 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden group">
+                        <img src="https://placehold.co/400x300/E2E8F0/333?text=Tug+Boat+01" alt="Tug Boat" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800">TB. Perkasa 01</h3>
+                            <p class="text-gray-500">Tug Boat</p>
+                            <ul class="mt-4 text-sm text-gray-600 space-y-2">
+                                <li><strong>Kekuatan:</strong> 2x1200 HP</li>
+                                <li><strong>Tahun:</strong> 2022</li>
+                                <li><strong>GRT:</strong> 290 Ton</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Contoh Kapal 2 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden group">
+                        <img src="https://placehold.co/400x300/E2E8F0/333?text=Tongkang+01" alt="Tongkang" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800">BG. Samudera 301</h3>
+                            <p class="text-gray-500">Tongkang</p>
+                            <ul class="mt-4 text-sm text-gray-600 space-y-2">
+                                <li><strong>Ukuran:</strong> 300 Feet</li>
+                                <li><strong>Kapasitas:</strong> 8000 MT</li>
+                                <li><strong>Tahun:</strong> 2021</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Contoh Kapal 3 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden group">
+                        <img src="https://placehold.co/400x300/E2E8F0/333?text=Tug+Boat+02" alt="Tug Boat" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800">TB. Perkasa 02</h3>
+                            <p class="text-gray-500">Tug Boat</p>
+                            <ul class="mt-4 text-sm text-gray-600 space-y-2">
+                                <li><strong>Kekuatan:</strong> 2x1500 HP</li>
+                                <li><strong>Tahun:</strong> 2023</li>
+                                <li><strong>GRT:</strong> 310 Ton</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 5. Proyek & Galeri -->
+        <section id="proyek" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title">Proyek & Galeri</h2>
+                <p class="section-subtitle">Dokumentasi dari berbagai proyek yang telah kami selesaikan dengan sukses.</p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="grid gap-4">
+                        <div><img class="h-auto max-w-full rounded-lg shadow-md" src="https://placehold.co/500x300/003366/FFF?text=Proyek+1" alt=""></div>
+                        <div><img class="h-auto max-w-full rounded-lg shadow-md" src="https://placehold.co/500x800/003366/FFF?text=Proyek+2" alt=""></div>
+                    </div>
+                    <div class="grid gap-4">
+                        <div><img class="h-auto max-w-full rounded-lg shadow-md" src="https://placehold.co/500x700/003366/FFF?text=Proyek+3" alt=""></div>
+                        <div><img class="h-auto max-w-full rounded-lg shadow-md" src="https://placehold.co/500x400/003366/FFF?text=Proyek+4" alt=""></div>
+                    </div>
+                    <div class="grid gap-4">
+                        <div><img class="h-auto max-w-full rounded-lg shadow-md" src="https://placehold.co/500x300/003366/FFF?text=Proyek+5" alt=""></div>
+                        <div><img class="h-auto max-w-full rounded-lg shadow-md" src="https://placehold.co/500x800/003366/FFF?text=Proyek+6" alt=""></div>
+                    </div>
+                    <div class="grid gap-4">
+                        <div><img class="h-auto max-w-full rounded-lg shadow-md" src="https://placehold.co/500x700/003366/FFF?text=Proyek+7" alt=""></div>
+                        <div><img class="h-auto max-w-full rounded-lg shadow-md" src="https://placehold.co/500x400/003366/FFF?text=Proyek+8" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Berita & Artikel -->
+        <section id="berita" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title">Berita & Artikel Terbaru</h2>
+                <p class="section-subtitle">Ikuti perkembangan terbaru dari perusahaan dan industri pelayaran.</p>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Artikel 1 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://placehold.co/400x250/E2E8F0/333?text=Berita+1" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <p class="text-sm text-gray-500 mb-2">20 Agu 2025</p>
+                            <h3 class="font-bold text-lg mb-3">Penerapan Regulasi Keselamatan Pelayaran Terbaru</h3>
+                            <a href="#" class="font-semibold text-[#FF6600] hover:underline">Baca Selengkapnya &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Artikel 2 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://placehold.co/400x250/E2E8F0/333?text=Berita+2" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <p class="text-sm text-gray-500 mb-2">15 Jul 2025</p>
+                            <h3 class="font-bold text-lg mb-3">Program CSR: Penanaman Mangrove di Pesisir Pantai</h3>
+                            <a href="#" class="font-semibold text-[#FF6600] hover:underline">Baca Selengkapnya &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Artikel 3 -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="https://placehold.co/400x250/E2E8F0/333?text=Berita+3" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <p class="text-sm text-gray-500 mb-2">01 Jun 2025</p>
+                            <h3 class="font-bold text-lg mb-3">Maritim Jaya Tambah 2 Armada Baru untuk Perkuat Layanan</h3>
+                            <a href="#" class="font-semibold text-[#FF6600] hover:underline">Baca Selengkapnya &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 7. Karier -->
+        <section id="karier" class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="section-title">Bergabunglah dengan Tim Kami</h2>
+                <p class="section-subtitle">Kami selalu mencari talenta terbaik untuk tumbuh dan berkembang bersama. Jadilah bagian dari perjalanan kami.</p>
+                <a href="#" class="bg-[#003366] text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-opacity-90 transition-colors">Lihat Lowongan Tersedia</a>
+            </div>
+        </section>
+
+        <!-- 8. Hubungi Kami -->
+        <section id="kontak" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title">Hubungi Kami</h2>
+                <p class="section-subtitle">Ada pertanyaan atau butuh penawaran? Tim kami siap membantu Anda.</p>
+                <div class="bg-white p-8 md:p-12 rounded-lg shadow-xl grid md:grid-cols-2 gap-12">
+                    <!-- Form Kontak -->
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Nama Lengkap</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#003366]">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Alamat Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#003366]">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Pesan Anda</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#003366]"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-[#FF6600] text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors">Kirim Pesan</button>
+                    </form>
+                    <!-- Info Kontak -->
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2 flex items-center"><i class="fas fa-map-marker-alt mr-3 text-[#003366]"></i>Alamat Kantor Pusat</h3>
+                            <p class="text-gray-600">Jl. Jenderal Sudirman Kav. 52-53, Jakarta Selatan, Indonesia 12190</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2 flex items-center"><i class="fas fa-phone mr-3 text-[#003366]"></i>Telepon</h3>
+                            <p class="text-gray-600">(021) 123-4567</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2 flex items-center"><i class="fas fa-envelope mr-3 text-[#003366]"></i>Email</h3>
+                            <p class="text-gray-600">info@maritimjaya.co.id</p>
+                        </div>
+                         <div class="h-64 w-full rounded-lg overflow-hidden">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.242921398835!2d106.80485567500001!3d-6.231551993755495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1383cfbf2d7%3A0x231a43c415646156!2sPacific%20Century%20Place%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1693300000000!5m2!1sen!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#002244] text-white">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4"><i class="fas fa-anchor mr-2"></i>Maritim Jaya</h3>
+                    <p class="text-gray-400">Solusi pelayaran terpercaya untuk mendukung kemajuan bisnis dan industri di Indonesia.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Navigasi</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#tentang" class="text-gray-400 hover:text-white">Tentang Kami</a></li>
+                        <li><a href="#layanan" class="text-gray-400 hover:text-white">Layanan</a></li>
+                        <li><a href="#armada" class="text-gray-400 hover:text-white">Armada</a></li>
+                        <li><a href="#karier" class="text-gray-400 hover:text-white">Karier</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Hubungi Kami</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Jl. Jenderal Sudirman Kav. 52-53, Jakarta</li>
+                        <li>info@maritimjaya.co.id</li>
+                        <li>(021) 123-4567</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Ikuti Kami</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white text-2xl"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-2xl"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-2xl"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-700 pt-6 text-center text-gray-500 text-sm">
+                &copy; <span id="year"></span> Maritim Jaya Perkasa. Seluruh Hak Cipta.
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20dengan%20layanan%20pelayaran%20Anda." target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg transform hover:scale-110 transition-transform">
+        <i class="fab fa-whatsapp text-4xl"></i>
+    </a>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileLinks = document.querySelectorAll('#mobile-menu a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+        
+        // Dynamic Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Shrink header on scroll
+        const header = document.getElementById('header');
+        window.onscroll = function() {
+            if (window.pageYOffset > 50) {
+                header.classList.add("py-2");
+                header.classList.remove("py-4");
+            } else {
+                header.classList.add("py-4");
+                header.classList.remove("py-2");
+            }
+        };
+    </script>
+
+</body>
+</html>
